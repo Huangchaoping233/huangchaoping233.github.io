@@ -1,1 +1,0 @@
-import{x as r}from"./index-B03LQxf_.js";const e="LC_COMP_TREE_1";function s(){let t=localStorage.getItem(e);return t?t=JSON.parse(t):t=o(),t}function g(t){const a=JSON.stringify(t);return localStorage.setItem(e,a),a}function o(){return[r("LcPage")]}export{s as g,g as s};

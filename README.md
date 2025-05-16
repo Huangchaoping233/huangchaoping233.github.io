@@ -12,6 +12,7 @@
 - vue3：前端框架，双向数据绑定的方式，能更快建立页面
 - typescript：有类型的 javascript，尽可能的规范类型及写法
 - element-plus：减少编写样式代码的时间
+- ejs: 根据页面生成 vue 源码
 
 # 功能框架
 
