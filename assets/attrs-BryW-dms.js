@@ -1,4 +1,4 @@
-import{A as p}from"./AttrList-DKngrgwd.js";import{d as r,l as e,n as c,c as s,a as i,p as n,o as u,G as m}from"./index-C7O8hxmp.js";const v={class:"vlow-functions p-6"},g=r({__name:"attrs",setup(f){const l=e([{name:"hello",type:"function",content:`function hello(a,b,c){
+import{A as p}from"./AttrList-DmVGWqzH.js";import{d as r,l as e,n as c,c as s,a as i,p as n,o as u,D as m}from"./index-DnPDpxWP.js";const v={class:"vlow-functions p-6"},g=r({__name:"attrs",setup(f){const l=e([{name:"hello",type:"function",content:`function hello(a,b,c){
         console.log('print world')
         return a+b+c
     }`},{name:"world",type:"function",content:`function world(){
