@@ -1,4 +1,4 @@
-var oI=Object.defineProperty;var lI=(t,e,r)=>e in t?oI(t,e,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[e]=r;var es=(t,e,r)=>(lI(t,typeof e!="symbol"?e+"":e,r),r);import{U as uI,V as bD,M as Iv,A as cI,W as cn}from"./index-JknftBUp.js";const pI=`<template>
+var oI=Object.defineProperty;var lI=(t,e,r)=>e in t?oI(t,e,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[e]=r;var es=(t,e,r)=>(lI(t,typeof e!="symbol"?e+"":e,r),r);import{U as uI,V as bD,M as Iv,A as cI,W as cn}from"./index-C7O8hxmp.js";const pI=`<template>
   <component :is="componentId" :element="element" :lc-id="element.id" :class="[
     {
       'lc-designer-comp': edit && element.compType !== 3,
