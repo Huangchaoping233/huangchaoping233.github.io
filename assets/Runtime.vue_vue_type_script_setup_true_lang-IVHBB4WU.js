@@ -1,6 +1,0 @@
-import{y as createComp,d as defineComponent,l as ref,q as onMounted,c as createElementBlock,i as renderList,F as Fragment,p as provide,r as resolveComponent,o as openBlock,I as createBlock}from"./index-DnPDpxWP.js";const storageKey="LC_COMP_TREE_1";function getPageData(){let e=localStorage.getItem(storageKey);return e?e=JSON.parse(e):e=getDefaultData(),e}function savePageData(e){const t=JSON.stringify(e);return localStorage.setItem(storageKey,t),t}function getDefaultData(){return[createComp("LcPage")]}const _sfc_main=defineComponent({__name:"Runtime",setup(__props){const elements=ref([]),eventList=[{name:"hello",type:"function",content:`function hello(a,b,c){
-        console.log(a)
-        return a
-    }`},{name:"world",type:"function",content:`function world(){
-        console.log('print world')
-    }`}],fns={};function handleEventList(){eventList.forEach(item=>{eval(`const ${item.name} = ${item.content};fns.${item.name}=${item.name};`)})}return handleEventList(),provide("fns",fns),provide("edit",!1),onMounted(()=>{const e=getPageData();elements.value=e}),(e,t)=>{const a=resolveComponent("CompRender");return openBlock(!0),createElementBlock(Fragment,null,renderList(elements.value,n=>(openBlock(),createBlock(a,{key:n.id,element:n},null,8,["element"]))),128)}}});export{_sfc_main as _,getPageData as g,savePageData as s};
